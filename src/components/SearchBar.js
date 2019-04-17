@@ -10,7 +10,10 @@ class SearchBar extends React.Component{
       <div className="ui segment">
         <form className="ui form"> 
           <div className="field">
-            <input type="text" placeholder="Image Search" onChange={this.onInputChange}/>
+            <input 
+              type="text" 
+              placeholder="Image Search" 
+              onChange={this.onInputChange}/>
           </div>
         </form>
       </div>
